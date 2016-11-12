@@ -1,0 +1,28 @@
+{
+  "name": "leandrorosa/cnova-sdk",
+  "type": "library",
+  "description": "Market Places API",
+  "keywords": [
+    "marketplace",
+    "cnova"
+  ],
+  "license": "LGPL-3.0",
+  "authors": [
+    {
+      "name": "Leandro Rosa",
+      "email": "dev.leandrorosa@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5",
+    "guzzlehttp/guzzle": "~6.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "CNovaApiLojistaV2\\": "src"
+    }
+  }
+}
